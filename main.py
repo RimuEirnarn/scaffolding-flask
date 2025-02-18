@@ -44,6 +44,11 @@ def dashboard():
     """Dashboard"""
     return render_template('dashboard.html')
 
+@app.get('/about')
+def about():
+    """About us"""
+    return render_template('about.html')
+
 # ==== RUN ====
 
 if __name__ == '__main__':
