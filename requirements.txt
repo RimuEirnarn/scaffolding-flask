@@ -6,3 +6,5 @@ python-dotenv
 flask-wtf
 bootstrap-flask
 requests
+pyjwt[crypto]
+flask-restful
